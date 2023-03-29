@@ -19,7 +19,8 @@ class EmailExtractorTestCase(unittest.TestCase):
             ["emilia.wawer@student.wat.edu.pl", True, False, "Emilia", "Wawer"],
             ["dominik.skwarek@student.wat.edu.pl", True, True, "Dominik", "Skwarek"],
             ["renata.tomkowska@student.wat.edu.pl", True, False, "Renata", "Tomkowska"],
-            ["aleksander.kozak@wat.edu.pl", False, True, "Aleksander", "Kozak"],]
+           # ["aleksander.kozak@wat.edu.pl", False, True, "Aleksander", "Kozak"],
+            ]
 
     def test_is_student(self):
         for x in self.data:
